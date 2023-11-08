@@ -1,0 +1,26 @@
+{
+  "manifest_version": 3,
+  "name": "Cookie Transfer",
+  "version": "1.0",
+  "description": "Extensión creada por Franco Fioravanti",
+  "host_permissions": [
+    "*://app.janisdev.in/",
+    "*://janis.localhost/"
+  ],
+  "permissions": [
+    "activeTab",
+    "cookies",
+    "host_permissions"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "images/galleta16.png",
+      "48": "images/galleta48.png"
+    }
+  },
+  "icons": {
+    "16": "images/galleta16.png",
+    "48": "images/galleta48.png"
+  }
+}
